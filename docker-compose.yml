@@ -4,11 +4,11 @@ services:
     image: bryangerlach/rdgen:latest
     restart: unless-stopped
     environment:
-      SECRET_KEY: "django-insecure-!(t-!f#6g#sr%yfded9(xha)g+=!6craeez^cp+*&bz_7vdk61"
-      GHUSER: "github_username"
-      GHBEARER: "github_access_token"
+      SECRET_KEY: "f18f0b6508d72e1e1a5c35e76860caa6c47e76b0f7e3ef5e5d5a730266a6a36b249d052a754f108bc659d151641c27ff864e8e6405643caf2ea92572c6a26182e9845ce2441de2f61962d9e66c175be121f589af87bff162a25e4ceb8d4c09a3bd82da44"
+      GHUSER: "xzx3344521xzx3344521"
+      GHBEARER: "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"
       GENURL: "accessible_url_of_server"
-      PROTOCOL: "https"
+      PROTOCOL: "http"
       REPONAME: "rdgen"
     ports:
       - "8000:8000"
